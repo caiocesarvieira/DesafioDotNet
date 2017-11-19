@@ -1,0 +1,5 @@
+C:\Users\caio.vieira\Desktop\DesafioDotNet\DesafioDotNetVisual2017\DesafioDotNet.Entity\bin\Debug\DesafioDotNet.Entity.dll
+C:\Users\caio.vieira\Desktop\DesafioDotNet\DesafioDotNetVisual2017\DesafioDotNet.Entity\bin\Debug\DesafioDotNet.Entity.pdb
+C:\Users\caio.vieira\Desktop\DesafioDotNet\DesafioDotNetVisual2017\DesafioDotNet.Entity\obj\Debug\DesafioDotNet.Entity.csprojResolveAssemblyReference.cache
+C:\Users\caio.vieira\Desktop\DesafioDotNet\DesafioDotNetVisual2017\DesafioDotNet.Entity\obj\Debug\DesafioDotNet.Entity.dll
+C:\Users\caio.vieira\Desktop\DesafioDotNet\DesafioDotNetVisual2017\DesafioDotNet.Entity\obj\Debug\DesafioDotNet.Entity.pdb

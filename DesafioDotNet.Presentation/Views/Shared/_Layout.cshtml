@@ -1,0 +1,72 @@
+﻿@using DesafioDotNet.Commom;
+@using DesafioDotNet.Presentation.ControleLogin;
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - DesafioDotNet</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/geral.css" rel="stylesheet" />
+</head>
+<body>
+
+
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+            </div>
+            <div class="float-right">
+                @if (UsuarioLogado.EstaLogado)
+                {                    
+                    <nav>
+                        <ul id="menu">
+                            <li>@Html.ActionLink("AMIGOS", "Index", "Amigo")</li>
+                            <li>@Html.ActionLink("JOGOS", "Index", "Jogo")</li>
+                            <li>@Html.ActionLink("EMPRESTIMOS", "Index", "Emprestimo")</li>
+                            <li>@Html.ActionLink("LOGOFF", "Logoff", "Login")</li>
+                        </ul>
+                    </nav>
+                    
+                    <div class="float-right">
+                        @{
+                    var saudacao = DateTime.Now.Hour > 12 ? "Boa tarde" : "Bom dia";
+                            <label>@saudacao <b><i>@UsuarioLogado.Usuario.Pessoa.Nome</i></b>.</label>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </header>
+
+    <div id="body">
+        @RenderSection("featured", required: false)
+        <section class="content-wrapper main-content clear-fix">
+            @RenderBody()
+        </section>
+    </div>
+    <footer>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p>&copy; @DateTime.Now.Year - DesafioDotNet</p>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+    <script src="~/Scripts/Geral.js"></script>
+    <script src="~/Scripts/jquery.dataTables.js"></script>
+    <script type="text/javascript">
+        var rootUrl = "@Url.Content("~")";
+
+        var MSG_08 = '@Html.Raw(@Mensagens.MSG_08)';
+        var MSG_09 = '@Html.Raw(@Mensagens.MSG_09)';
+
+    </script>
+</body>
+</html>
+

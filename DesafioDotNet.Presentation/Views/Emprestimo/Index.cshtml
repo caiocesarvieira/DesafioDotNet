@@ -1,0 +1,81 @@
+﻿@using DesafioDotNet.Presentation.Models;
+@model DesafioDotNet.Presentation.Models.EmprestimoViewModel
+
+@{
+    ViewBag.Title = "Emprestimos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>EMPRESTIMOS</h2>
+
+@using (Html.BeginForm())
+{
+    <section class="float_left">
+        <h3>CADASTRO</h3>
+        <br />
+        <fieldset>
+            <legend></legend>
+
+            @Html.HiddenFor(model => model.Emprestimo.Codigo, new { id = "hdnCodigo" })
+
+            <div>
+                <div class="form-group">
+                    @Html.Label("", "*Amigo")
+                </div>
+                <div class="editor-field">
+                    @Html.DropDownListFor(model => model.Emprestimo.Pessoa.Codigo, new SelectList(Model.Amigos.Select(x => x), "Codigo", "Nome"), "Selecione...", new { id = "ddlAmigo", @class = "form-control js-obrigatorio" })
+                </div>
+            </div>
+
+            <div>
+                <div class="editor-label">
+                    @Html.Label("", "*Jogo")
+                </div>
+                <div class="editor-field">
+                    @Html.DropDownListFor(model => model.Emprestimo.Jogo.Codigo, new SelectList(Model.Jogos, "Codigo", "Descricao"), "Selecione...", new { id = "ddlJogo", @class = "js-obrigatorio" })
+                </div>
+            </div>
+
+            <p>
+                <input id="btnSalvar" type="submit" value="Salvar" />
+                <input id="btnCancelar" class="invisivel" type="submit" value="Cancelar" />
+            </p>
+        </fieldset>
+    </section>
+    
+    <section class="float_right">
+        <h3>PESQUISA</h3>
+        <br />
+        <fieldset>
+            <legend></legend>
+
+            <div class="editor-label">
+                @Html.Label("", "Amigo")
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.Emprestimo.Pessoa.Nome, new { id = "txtNomeAmigo" })
+            </div>
+
+            <div class="editor-label">
+                @Html.Label("", "Jogo")
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.Emprestimo.Jogo.Descricao, new { id = "txtDescricaoJogo" })
+            </div>
+
+            <p>
+                <input id="btnConsultar" type="submit" value="Consultar" />
+            </p>
+        </fieldset>
+    </section>
+}
+
+<div>
+    @Html.Partial("~/Views/Shared/_Datatables.cshtml", new DatatablesViewModel("tblEmprestimos"))
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/Emprestimo/Index.js"></script>
+}

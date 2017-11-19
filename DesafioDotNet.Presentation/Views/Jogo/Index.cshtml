@@ -1,0 +1,43 @@
+﻿@using DesafioDotNet.Presentation.Models;
+@model DesafioDotNet.Presentation.Models.JogoViewModel
+
+@{
+    ViewBag.Title = "Jogos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>JOGOS</h2>
+
+@using (Html.BeginForm())
+{
+    <h3>CADASTRO</h3>
+    <br />
+    <fieldset>
+        <legend></legend>
+
+        @Html.HiddenFor(model => model.Jogo.Codigo, new { id = "hdnCodigo" })
+
+        <div>
+            <div class="editor-label">
+                @Html.Label("", "*Descrição")
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.Jogo.Descricao, new { id = "txtDescricao", @class = "js-obrigatorio" })
+            </div>
+        </div>
+
+        <p>
+            <input id="btnSalvar" type="submit" value="Salvar" />
+            <input id="btnCancelar" class="invisivel" type="submit" value="Cancelar" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.Partial("~/Views/Shared/_Datatables.cshtml", new DatatablesViewModel("tblJogos"))
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/Jogo/Index.js"></script>
+}

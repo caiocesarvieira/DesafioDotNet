@@ -1,0 +1,35 @@
+﻿@model DesafioDotNet.Presentation.Models.LoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+
+<section id="loginForm">
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+            <legend>Login</legend>
+            <ol>
+                <li>
+                    @Html.Label("", "*Usuario")
+                    @Html.TextBoxFor(m => m.Login.Usuario, new { @class = "js-obrigatorio" })
+                </li>
+                <li>
+                    @Html.Label("", "*Senha")
+                    @Html.PasswordFor(m => m.Login.Senha, new { @class = "js-obrigatorio" })
+                </li>
+            </ol>
+            <input id="btnLogar" type="submit" value="Logar" />
+        </fieldset>
+    }
+</section>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/Login/Index.js"></script>
+}

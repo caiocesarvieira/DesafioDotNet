@@ -1,0 +1,17 @@
+﻿@using DesafioDotNet.Presentation.Models;
+
+@model DatatablesViewModel
+
+<div>
+    <table id="@Model.Id" class="table table-hover table-striped" width="100%"></table>
+
+    <div id="@(Model.Id)InfoMessage" class="alert alert-info datatables-info" role="alert" style="display:none;">
+        <span class="icon-info-sign"></span>
+        <strong>Informação!</strong><span class="js-mensagem"></span>
+    </div>
+    <div id="@(Model.Id)ErrorMessage" class="alert alert-info datatables-error" role="alert" style="display:none;">
+        <span class="icon-remove-sign"></span>
+        <strong>Erro técnico!</strong>
+        <div class="datatables-error-details"></div>
+    </div>
+</div>
