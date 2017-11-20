@@ -13,3 +13,8 @@ C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet.Commom\bin\Debug\Des
 C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet.Commom\obj\Debug\DesafioDotNet.Commom.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet.Commom\obj\Debug\DesafioDotNet.Commom.dll
 C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet.Commom\obj\Debug\DesafioDotNet.Commom.pdb
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Commom\obj\Debug\DesafioDotNet.Commom.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Commom\obj\Debug\DesafioDotNet.Commom.dll
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Commom\obj\Debug\DesafioDotNet.Commom.pdb
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Commom\bin\Debug\DesafioDotNet.Commom.dll
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Commom\bin\Debug\DesafioDotNet.Commom.pdb

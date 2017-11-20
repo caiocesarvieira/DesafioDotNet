@@ -31,3 +31,14 @@ C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet.Data\bin\Debug\Desaf
 C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet.Data\obj\Debug\DesafioDotNet.Data.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet.Data\obj\Debug\DesafioDotNet.Data.dll
 C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet.Data\obj\Debug\DesafioDotNet.Data.pdb
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Data\bin\Debug\DatabaseDesafioDotNet.sdf
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Data\bin\Debug\DesafioDotNet.Data.dll.config
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Data\bin\Debug\DesafioDotNet.Data.dll
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Data\bin\Debug\DesafioDotNet.Data.pdb
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Data\bin\Debug\DesafioDotNet.Commom.dll
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Data\bin\Debug\DesafioDotNet.Entity.dll
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Data\bin\Debug\DesafioDotNet.Commom.pdb
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Data\bin\Debug\DesafioDotNet.Entity.pdb
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Data\obj\Debug\DesafioDotNet.Data.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Data\obj\Debug\DesafioDotNet.Data.dll
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Data\obj\Debug\DesafioDotNet.Data.pdb

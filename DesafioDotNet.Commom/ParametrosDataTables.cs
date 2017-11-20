@@ -8,6 +8,8 @@ namespace DesafioDotNet.Commom
 {
     public class ParametrosDataTables
     {
+        public ParametrosDataTables() { }
+
         public DatatableColumn[] columns { get; set; }
         public int draw { get; set; }
         public int length { get; set; }

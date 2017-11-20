@@ -79,9 +79,10 @@ var tabela = {
                         return nome;
                     }
                 },
-                { mData: 'Jogo.Descricao', sTitle: 'Jogo', sWidth: '40%', orderable: true },
+                { mData: 'Jogo.Descricao', sTitle: 'Jogo', sWidth: '30%', orderable: true },
+                { mData: 'Data', sTitle: 'Data', sWidth: '20%', orderable: true },
                 {
-                    mData: null, sTitle: 'Ação', sWidth: '20%', orderable: false, mRender: function (valor, tipo, objeto) {
+                    mData: null, sTitle: 'Ação', sWidth: '10%', orderable: false, mRender: function (valor, tipo, objeto) {
 
                         var retorno = '<a id=' + objeto.Codigo + '|' + objeto.Pessoa.Codigo + '|' + objeto.Jogo.Codigo + ' class="js-editar" href="javascript:void(0);" ><img class="iconeDataTables" src="' + rootUrl + 'Content/Imagens/editar.png" alt="Editar Amigo" title="Editar Amigo" ></a>';
                         retorno += '<a id=' + objeto.Codigo + '|' + objeto.Pessoa.Codigo + '|' + objeto.Jogo.Codigo + ' class="js-excluir" href="javascript:void(0);" ><img class="iconeDataTables" src="' + rootUrl + 'Content/Imagens/excluir.png" alt="Excluir Amigo" title="Excluir Amigo" ></a>';

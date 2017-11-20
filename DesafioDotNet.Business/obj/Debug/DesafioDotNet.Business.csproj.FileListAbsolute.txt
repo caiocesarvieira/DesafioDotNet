@@ -34,3 +34,15 @@ C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet.Business\bin\Debug\D
 C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet.Business\bin\Debug\DesafioDotNet.Data.pdb
 C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet.Business\bin\Debug\DesafioDotNet.Entity.pdb
 C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet.Business\obj\Debug\DesafioDotNet.Business.pdb
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Business\bin\Debug\DatabaseDesafioDotNet.sdf
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Business\bin\Debug\DesafioDotNet.Business.dll
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Business\bin\Debug\DesafioDotNet.Business.pdb
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Business\bin\Debug\DesafioDotNet.Commom.dll
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Business\bin\Debug\DesafioDotNet.Data.dll
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Business\bin\Debug\DesafioDotNet.Entity.dll
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Business\bin\Debug\DesafioDotNet.Commom.pdb
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Business\bin\Debug\DesafioDotNet.Data.pdb
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Business\bin\Debug\DesafioDotNet.Entity.pdb
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Business\obj\Debug\DesafioDotNet.Business.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Business\obj\Debug\DesafioDotNet.Business.dll
+C:\Users\user\Desktop\DesafioDotNetVisual2012\DesafioDotNet\DesafioDotNet.Business\obj\Debug\DesafioDotNet.Business.pdb

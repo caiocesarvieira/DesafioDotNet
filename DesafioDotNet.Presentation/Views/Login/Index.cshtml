@@ -1,4 +1,5 @@
-﻿@model DesafioDotNet.Presentation.Models.LoginViewModel
+﻿
+@model DesafioDotNet.Presentation.Models.LoginViewModel
 
 @{
     ViewBag.Title = "Login";
@@ -15,7 +16,7 @@
             <legend>Login</legend>
             <ol>
                 <li>
-                    @Html.Label("", "*Usuario")
+                    @Html.Label("", "*Usuário")
                     @Html.TextBoxFor(m => m.Login.Usuario, new { @class = "js-obrigatorio" })
                 </li>
                 <li>
